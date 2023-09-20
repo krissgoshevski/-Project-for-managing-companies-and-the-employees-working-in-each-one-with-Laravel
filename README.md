@@ -1,3 +1,36 @@
+
+This is Part 1 of this project
+
+Within this project is included:
+
+SKILLS: Laravel, MySQL, Blade, CSS, Bootstrap
+
+- ALL CRUD OPERATIONS FOR BOTH EMPLOYEES AND COMPANIES ARE CREATED
+- I use Laravel Requests to validate data when performing CRUD operations
+- Implemented search functionality in the view where all the companies are listed.
+- migrations
+- seeders and fakers
+- sessions
+- Admin Form, Company Form, Employee form
+
+- For each company we know the name(required), email (email), logo (url), website (url) and
+country who is my (foreign key to the countries table).
+- For each employee we know the name (required), surname (required), company who is my (foreign key to
+the companies table), email and phone
+
+- implemented an authentication mechanism when users are signed in they can
+manage companies and employees.
+- migration for storing users and logic for signing in
+- When the user is signs in successfully, a key (i.e. ‘user_id’) is stored
+in session
+- access is limited to only users having the session variable filled (signed-in users)
+- If someone is not signed in and attempts to access any of the routes for managing companies or employees he is redirected to the login page
+
+- Only Admin have access to any routes for managing companies or employees.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
