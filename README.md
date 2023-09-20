@@ -7,12 +7,15 @@ SKILLS: Laravel, MySQL, Blade, CSS, Bootstrap
 
 - ALL CRUD OPERATIONS FOR BOTH EMPLOYEES AND COMPANIES ARE CREATED
 - I use Laravel Requests to validate data when performing CRUD operations
-- Implemented search functionality in the view where all the companies are listed.
 - migrations
 - seeders and fakers
 - sessions
+- models
+- ELOQUENT RELATIONSHIPS and JOINS
 - Admin Form, Company Form, Employee form
 
+
+- Implemented search functionality in the view where all the companies are listed.
 - For each company we know the name(required), email (email), logo (url), website (url) and
 country who is my (foreign key to the countries table).
 - For each employee we know the name (required), surname (required), company who is my (foreign key to
