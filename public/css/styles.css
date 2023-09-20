@@ -1,0 +1,28 @@
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.custom-form .form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.custom-form button {
+    padding: 10px 20px;
+    margin: 5px;
+}
