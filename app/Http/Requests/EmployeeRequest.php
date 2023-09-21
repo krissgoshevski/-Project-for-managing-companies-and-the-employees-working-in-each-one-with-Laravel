@@ -24,7 +24,7 @@ class EmployeeRequest extends FormRequest
         return [
             'firstname' => 'required',
             'surname' => 'required',
-            'email' => 'required|email',  
+            'email' => 'required|string|email|max:255|unique:employees,email,'.$this->id,
             'phone' => 'required',
             'company_id' => 'required|int',
         ];
